@@ -1,0 +1,23 @@
+{
+	"name": "ft_linear_regression",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"predict": "node predict.js",
+		"train": "node train.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/woolimi/ft_linear_regression.git"
+	},
+	"author": "Woolim PARK",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/woolimi/ft_linear_regression/issues"
+	},
+	"homepage": "https://github.com/woolimi/ft_linear_regression#readme",
+	"dependencies": {
+		"csv-parser": "^2.3.3"
+	}
+}
