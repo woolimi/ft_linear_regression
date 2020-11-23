@@ -1,6 +1,8 @@
 const fs = require("fs");
 const readline = require("readline");
-const { theta0, theta1 } = JSON.parse(fs.readFileSync("model.json", "utf8"));
+const { theta0, theta1 } = JSON.parse(
+	fs.readFileSync(`${__dirname}/model.json`, "utf8"),
+);
 
 const rl = readline.createInterface({
 	input: process.stdin,

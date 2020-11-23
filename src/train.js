@@ -2,7 +2,8 @@ const csv = require("csv-parser");
 const fs = require("fs");
 
 const Trainer = {
-	modelName: "model.json",
+	csv: `${__dirname}/data.csv`,
+	model: `${__dirname}/model.json`,
 	data: [],
 	scale: null,
 	theta: [0, 0],
@@ -25,10 +26,10 @@ const Trainer = {
 		return this.theta[0] + this.theta[1] * km;
 	},
 	_cost() {
-		return _squared_error() / (2 * M);
+		return this._squared_error() / (2 * this.M);
 	},
 	_squared_error() {
-		return data.reduce(
+		return this.data.reduce(
 			(sum, d) => sum + (this._hypothesis(d.km) - d.price) ** 2,
 			0,
 		);
@@ -58,7 +59,7 @@ const Trainer = {
 	},
 	save() {
 		fs.writeFile(
-			this.modelName,
+			this.model,
 			JSON.stringify({
 				theta0: this.theta[0],
 				theta1: this.theta[1],
@@ -71,7 +72,7 @@ const Trainer = {
 	},
 };
 
-fs.createReadStream("./data.csv")
+fs.createReadStream(Trainer.csv)
 	.pipe(
 		csv({
 			mapValues: ({ value }) => parseFloat(value),
