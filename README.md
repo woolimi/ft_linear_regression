@@ -13,7 +13,7 @@ using a linear function train with a `gradient descent algorithm`. Dataset consi
 1. Install package
 
    ```
-   npm i
+   > npm i
    ```
 
 2. Prediction before train
