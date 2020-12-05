@@ -27,7 +27,6 @@ using a linear function train with a `gradient descent algorithm`. Dataset consi
    ```
 
 3. Train
-   Try to predict price before training our `src/model.json`
 
    ```
    > npm run train
