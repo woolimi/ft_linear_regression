@@ -16,7 +16,7 @@ using a linear function train with a `gradient descent algorithm`. Dataset consi
    npm i
    ```
 
-2. prediction before train
+2. Prediction before train
    Try to predict price before training our `src/model.json`
 
    ```
@@ -25,7 +25,7 @@ using a linear function train with a `gradient descent algorithm`. Dataset consi
    > price: 0
    ```
 
-3. train
+3. Train
    Try to predict price before training our `src/model.json`
 
    ```
@@ -36,7 +36,7 @@ using a linear function train with a `gradient descent algorithm`. Dataset consi
    ===========================
    ```
 
-4. prediction after train
+4. Prediction after train
 
    ```
    > npm run predict
