@@ -1,6 +1,7 @@
 # ft_linear_regression
-
-<img src="./preview.gif" alt="presentation ft_linear_regression" style="border: 1px solid black;"/>
+<kbd>
+<img src="./preview.gif" alt="presentation ft_linear_regression"/>
+</kbd>
 
 ## Overview
 
