@@ -24,8 +24,10 @@ const App = () => {
 	const iteration = useRef(null);
 
 	const onTraining = () => {
+		const lr = parseFloat(learningRate);
+		if (!lr) return alert("Invalid learning rate");
 		Trainer.theta = [0, 0];
-		Trainer.learningRate = learningRate;
+		Trainer.learningRate = lr;
 		setCosts([]);
 		iteration.current = 0;
 		setIsTraining(true);

@@ -3,9 +3,7 @@ import { Card, Input } from "semantic-ui-react";
 
 const LearningRate = ({ learningRate, setLearningRate }) => {
 	const onChange = (e) => {
-		const learningRate = parseFloat(e.target.value);
-		if (!learningRate) return;
-		else setLearningRate(e.target.value);
+		setLearningRate(e.target.value);
 	};
 	return (
 		<Card>
