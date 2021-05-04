@@ -52,3 +52,11 @@ using a linear function train with a `gradient descent algorithm`. Dataset consi
    ```
 
    By changing the learning rate, you can observe how the gradient descent algorithm is performed.
+
+
+```javascript
+var a = 1;
+function() {
+ var test;
+}
+```
