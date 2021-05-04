@@ -1,8 +1,6 @@
 # ft_linear_regression
 
-<kbd>
 <img src="https://raw.githubusercontent.com/woolimi/ft_linear_regression/main/preview.gif" alt="presentation ft_linear_regression"/>
-</kbd>
 
 ## Overview
 
