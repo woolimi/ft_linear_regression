@@ -1,6 +1,6 @@
 # ft_linear_regression
 
-<img src="https://raw.githubusercontent.com/woolimi/ft_linear_regression/main/preview.gif" alt="presentation ft_linear_regression"/>
+<img width="100%" src="https://raw.githubusercontent.com/woolimi/ft_linear_regression/main/preview.gif" alt="presentation ft_linear_regression"/>
 
 ## Overview
 
