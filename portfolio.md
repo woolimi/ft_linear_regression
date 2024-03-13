@@ -12,7 +12,7 @@ using a linear function train with a `gradient descent algorithm`. Dataset consi
 1. Install package
 
    ```
-   > npm i
+   > pnpm i
    ```
 
 2. Prediction before train
@@ -20,7 +20,7 @@ using a linear function train with a `gradient descent algorithm`. Dataset consi
    Try to predict price before training our `src/model.json`
 
    ```
-   > npm run predict
+   > pnpm run predict
    > milage: 200000
    > price: 0
    ```
@@ -28,7 +28,7 @@ using a linear function train with a `gradient descent algorithm`. Dataset consi
 3. Train
 
    ```
-   > npm run train
+   > pnpm run train
    ===========================
    Theta0 :  8008.400720135726
    Theta1 :  -0.02144848806185557
@@ -38,7 +38,7 @@ using a linear function train with a `gradient descent algorithm`. Dataset consi
 4. Prediction after train
 
    ```
-   > npm run predict
+   > pnpm run predict
    > milage: 200000
    > price: 3718.7031077646125
    ```
@@ -46,7 +46,7 @@ using a linear function train with a `gradient descent algorithm`. Dataset consi
 5. Visualization (React App localhost:8080)
 
    ```
-   > npm run bonus
+   > pnpm run bonus
    ```
 
    By changing the learning rate, you can observe how the gradient descent algorithm is performed.
